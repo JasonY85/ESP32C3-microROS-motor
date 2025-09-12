@@ -41,8 +41,7 @@ Restart your linux system.
 ```
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
 ```
-After setting up the microROS agent,
-Run:
+After setting up the microROS agent, run:
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
