@@ -1,6 +1,8 @@
 # ESP32C3-microROS-motor
 A microROS package to control differential wheeled robot.
+
 USB serial connection was used.
+
 Edit your parameters in config.h
 
 ## 1. Hardware:
@@ -47,5 +49,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 ## 3. Topics
 Subscriber: /cmd_vel
+
 Publisher: /right_wheel_speed  /left_wheel_speed  (rad/s)
 
