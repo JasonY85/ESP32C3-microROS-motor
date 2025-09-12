@@ -29,7 +29,7 @@ source install/setup.bash
 ```
 ## 2.1 Set USB port permission
 ```
-sudo chmod a+rw /dev/ttyACM0    #give permission to usb port /ttyACM0
+sudo chmod a+rw /dev/ttyACM0    # give permission to usb port /ttyACM0
 ```
 ```
 sudo usermod -aG dialout $USER  # add yourself into dialout group
