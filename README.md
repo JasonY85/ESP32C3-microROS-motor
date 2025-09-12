@@ -1,6 +1,8 @@
 # ESP32C3-microROS-motor
 A microROS package to control differential wheeled robot.
 
+Tested on humble.
+
 USB serial connection was used.
 
 Edit your parameters in config.h
