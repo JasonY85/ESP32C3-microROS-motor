@@ -45,3 +45,7 @@ After setting up the microROS agent, run:
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+## 3. Topics
+Subscriber: /cmd_vel
+Publisher: /right_wheel_speed  /left_wheel_speed  (rad/s)
+
