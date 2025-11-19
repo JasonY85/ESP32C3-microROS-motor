@@ -2,18 +2,18 @@
 
 class PIDController {
 public:
-    PIDController(float kp, float ki, float kd, float max_output, float min_output);
-    float compute(float setpoint, float input);
-    void reset();
+    PIDController(float kp, float ki, float kd, float max_pwm, float min_pwm);
+    float compute(float setpoint, float measured_value);
+    float getError() const { return prev_error; }
     
 private:
     float kp_;
     float ki_;
     float kd_;
-    float max_output_;
-    float min_output_;
+    float max_pwm_;
+    float min_pwm_;
     
-    float integral_;
-    float previous_error_;
-    unsigned long last_time_;
+    double integral;
+    double derivative;
+    double prev_error;
 };
