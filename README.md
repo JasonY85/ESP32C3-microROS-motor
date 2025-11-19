@@ -1,5 +1,5 @@
 # ESP32C3-microROS-motor
-A microROS package to control differential wheeled robot.
+A microROS package to control differential wheeled robot using mobile joystick (dabble app) or teleop twist keyboard
 
 Tested on humble.
 
@@ -49,6 +49,10 @@ After setting up the microROS agent, run:
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+OR
+
+Download Dabble app from the playstore and control using gamepad via bluetooth.
+
 ## 3. Topics
 Subscriber: /cmd_vel
 
